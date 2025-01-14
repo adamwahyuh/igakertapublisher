@@ -12,3 +12,19 @@
 ## Cara Menggunakan
 1. Tambahkan ikon ke dalam folder `asset/icon/` dan gambar ke dalam folder `asset/img/` sesuai kebutuhan.
 2. Tambahkan file JavaScript ke dalam folder `asset/js/` untuk menambahkan interaktivitas ke halaman web.
+
+# Components
+Daftar Components:
+1. <h-navbar> untuk navbar
+2. <f-footer> untuk footer
+
+Jika anda ingin menggunakan component, dengan cara:
+1. <script type="module" src="asset/js/linking.js"></script> letakkan code ini di bagian head
+2. panggil componentnya, misalkan
+
+<body>
+  <h-navbar></h-navbar>
+  <f-footer></f-footer>
+</body>
+
+Jika ingin menambah component simpan di folder 'asset/js/components' dan import component di file 'asset/js/linking.js'
