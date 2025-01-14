@@ -15,16 +15,16 @@
 
 # Components
 Daftar Components:
-1. <h-navbar> untuk navbar
-2. <f-footer> untuk footer
+1. '<h-navbar>' untuk navbar
+2. '<f-footer>' untuk footer
 
 Jika anda ingin menggunakan component, dengan cara:
 1. <script type="module" src="asset/js/linking.js"></script> letakkan code ini di bagian head
 2. panggil componentnya, misalkan
 
-<body>
+'<body>
   <h-navbar></h-navbar>
   <f-footer></f-footer>
-</body>
+</body>'
 
 Jika ingin menambah component simpan di folder 'asset/js/components' dan import component di file 'asset/js/linking.js'
