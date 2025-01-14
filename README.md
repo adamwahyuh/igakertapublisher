@@ -31,6 +31,7 @@ Jika Anda ingin menggunakan komponen, lakukan langkah-langkah berikut:
    <script type="module" src="asset/js/linking.js"></script>
 2. panggil componentnya, misalkan di dalam body:
 
-```<body><h-navbar></h-navbar><f-footer></f-footer></body>
+```html
+  <body><h-navbar></h-navbar><f-footer></f-footer></body>
 
 Jika ingin menambah component simpan di folder 'asset/js/components' dan import component di file 'asset/js/linking.js'
