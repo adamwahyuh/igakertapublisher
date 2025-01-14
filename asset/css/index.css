@@ -8,13 +8,3 @@ html, body {
   main {
     flex: 1;
   }
-  footer {
-    background-color: #343a40;
-    color: white;
-    padding-top: 1rem;
-    background-color: var(--primary-color);
-    
-  }
-  footer a {
-    text-decoration: none;
-  }
