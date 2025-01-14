@@ -32,6 +32,9 @@ Jika Anda ingin menggunakan komponen, lakukan langkah-langkah berikut:
 2. panggil componentnya, misalkan di dalam body:
 
 ```html
-  <body><h-navbar></h-navbar><f-footer></f-footer></body>
+  <body>
+    <h-navbar></h-navbar>
+    <f-footer></f-footer>
+  </body>
 
 3. Jika ingin menambah component simpan di folder 'asset/js/components' dan import component di file 'asset/js/linking.js'
