@@ -1,4 +1,4 @@
-class Navbar extends HTMLElement {
+class Footer extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
         <footer class="text-white pt-4">
@@ -30,5 +30,5 @@ class Navbar extends HTMLElement {
       `;
     }
   }
-  customElements.define('f-footer', Navbar);
+  customElements.define('f-footer', Footer);
   
