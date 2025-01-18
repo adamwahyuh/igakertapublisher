@@ -1,8 +1,7 @@
 @import url(global.css);
 
-nav {
+nav{
     background-color: var(--primary-color);
-    
 }
 
 /* Ganti Style Font ni di sini */
