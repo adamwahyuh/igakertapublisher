@@ -5,8 +5,8 @@ class Navbar extends HTMLElement {
             <div class="container">
                 <div class="row">
                 <div class="col-md-4">
-                    <h5>Tentang kami</h5>
-                    <p>Kami adalah publisher</p>
+                    <h2>Tentang kami</h2>
+                    <p>Menyajikan beragam bacaan berkualitas untuk memperkaya pengetahuan dan imajinasi Anda.</p>
                 </div>
                 <div class="col-md-4">
                     <h5>Quick Links</h5>
