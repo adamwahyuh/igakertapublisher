@@ -1,7 +1,7 @@
 class Navbar extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
-        <nav class="navbar navbar-expand-lg navbar-dark ">
+        <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
           <a class="navbar-brand" href="index.html"><img src="asset/img/logo with word.png" width="40%" alt="Logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
