@@ -7,7 +7,12 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+#slider {
+    img {
+        height: 100vh;
+        object-fit: cover;
+    }
+}
 #services {
     background-color: var(--primary-color);
     padding-bottom: 30px;
