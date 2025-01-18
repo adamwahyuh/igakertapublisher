@@ -23,7 +23,7 @@ class Navbar extends HTMLElement {
                   Tentang Kami
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="analyticsDropdown">
-                  <li><a class="dropdown-item" href="faq.html">Tentang Kami</a></li>
+                  <li><a class="dropdown-item" href="about.html">Tentang Kami</a></li>
                   <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
                   <li><a class="dropdown-item" href="testimoni.html">Testimoni</a></li>
                   <li><a class="dropdown-item" href="contact.html">Contact</a></li>
