@@ -2,5 +2,6 @@
     --primary-color: #5F11CA;
     --secondary-color: #FCCE1F;
     --accent-color: ;
-    --text-color: ;
+    --light-text-color: #fff;
+    --dark-text-color: #333;
 }

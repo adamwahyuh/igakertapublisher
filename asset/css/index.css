@@ -10,7 +10,7 @@ body {
 #slider {
     img {
         height: 100vh;
-        object-fit: fill;
+        object-fit: cover;
         
     }
 }
@@ -27,7 +27,7 @@ body {
   .custom-card {
     overflow: hidden;
     position: relative;
-    color: white;
+    color: var(--light-text-color);
     border-radius: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
@@ -62,7 +62,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    color: white;
+    color: var(--light-text-color);
     text-align: center;
   }
   
@@ -78,7 +78,7 @@ body {
   
   .custom-card .btn {
     border: 1px solid white;
-    color: white;
+    color: var(--light-text-color);
     margin-top: 1rem;
     font-weight: 600;
     padding: 0.5rem 1rem;
@@ -116,18 +116,18 @@ body {
     .bestseller-text h2 {
         font-size: 2rem;
         font-weight: bold;
-        margin-bottom: 0.5rem; /* Kurangi jarak bawah judul */
+        margin-bottom: 0.5rem; 
     }
 
     .bestseller-text p {
         font-size: 1rem;
-        color: #333;
-        margin-bottom: 1rem; /* Kurangi jarak bawah paragraf */
+        color: var(--dark-text-color);
+        margin-bottom: 1rem; 
     }
 
     .bestseller-text .btn {
         background-color: var(--primary-color);
-        color: white;
+        color: var(--light-text-color);
         border: none;
         padding: 0.7rem 2rem;
         font-size: 1rem;
@@ -137,7 +137,7 @@ body {
 
     .bestseller-text .btn:hover {
         background-color: var(--secondary-color);
-        color: white;
+        color: var(--light-text-color);
     }
 
     .bestseller-image {
@@ -220,9 +220,10 @@ body {
             background-color: var(--primary-color);
             border: none;
             transition: ease-in-out 0.3s;
+            font-weight: 700;
         }
         a:hover{
-            box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--primary-color);
+            box-shadow: 0 0 0 2px white, 0 0 0 4px var(--primary-color);
         }
     }
 }
