@@ -11,6 +11,7 @@
 - `components/`: Folder ini berisi komponen web yang digunakan dalam proyek.
   - `h-navbar.js`: Komponen ini digunakan untuk membuat navigasi header.
   - `f-footer.js`: Komponen ini digunakan untuk membuat footer.
+  - `b-s`: Komponen ini digunakan untuk menyambungkan bootstrap & bootstrap icon .
 
 ## Cara Menggunakan
 
@@ -24,6 +25,7 @@
 Daftar Components:
 1. `<h-navbar>` untuk navbar
 2. `<f-footer>` untuk footer
+3. `<b-s>` untuk link bootstrap [bootstrap, bootstrap icon]
 
 Jika Anda ingin menggunakan komponen, lakukan langkah-langkah berikut:
 1. Letakkan kode berikut di bagian `<head>`:
