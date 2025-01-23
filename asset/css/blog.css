@@ -1,0 +1,57 @@
+@import url(global.css);
+
+#search-bar{
+    
+    .btn[type="submit"] {
+        background-color: var(--primary-color); 
+        color: var(--light-text-color); 
+    }
+    
+    .btn[type="submit"]:hover {
+        background-color: var(--secondary-color); 
+        color: var(--light-text-color); 
+    }
+}
+
+#blog {
+    #blog-up{
+        .card img {
+            min-width: 100%;
+            width: 100%;
+            object-fit: cover; 
+        }
+    }
+    .card img {
+        width: 100%;
+        height: 200px; 
+        object-fit: cover; 
+    }
+    
+    .card {
+        height: 100%; 
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card .card-body {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    h2{
+        font-weight: 700;
+    }
+    h5{
+        font-weight: 700;
+        color: var(--dark-text-color);
+    }
+    .btn {
+        background-color: var(--primary-color);
+        color: var(--light-text-color);
+    }
+    .btn:hover {
+        box-shadow: 0 0 0 2px white, 0 0 0 4px var(--primary-color);
+    }
+}

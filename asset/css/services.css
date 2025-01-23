@@ -1,0 +1,13 @@
+
+#about{
+    margin-top: 3rem;
+
+    .card {
+        margin-bottom: 20px;
+        border: none;
+    }
+    
+    .card-title {
+        font-weight: bold;
+    }
+}
