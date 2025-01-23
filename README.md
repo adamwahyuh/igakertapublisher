@@ -40,3 +40,6 @@ Jika Anda ingin menggunakan komponen, lakukan langkah-langkah berikut:
   </body>
 
 3. Jika ingin menambah component simpan di folder 'asset/js/components' dan import component di file 'asset/js/linking.js'
+
+
+Pengawas project Pak Asep Surahmat 
