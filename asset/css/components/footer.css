@@ -1,9 +1,9 @@
 footer {
-    background-color: #343a40;
     color: white;
     padding-top: 1rem;
     background-color: var(--primary-color);
     padding-bottom: 1rem;
+    line-height: 2rem;
 }
 
 footer a {

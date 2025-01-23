@@ -1,13 +1,37 @@
 @import url(global.css);
 
-nav{
+nav {
     background-color: var(--primary-color);
 }
 
-/* Ganti Style Font ni di sini */
 .navbar-nav .nav-link {
     font-weight: 600;
     color: #fff;
+}
+
+.navbar-toggler {
+    margin-left: auto; 
+}
+
+
+
+@media (max-width: 1000px) {
+    .navbar-brand img {
+        max-height: 100px;
+    }
+    
+}
+@media (max-width: 768px) {
+    .navbar-brand img {
+        max-height: 70px;
+    }
+    
+}
+@media (max-width: 533px) {
+    .navbar-brand img {
+        max-height: 50px;
+    }
+    
 }
 
 
